@@ -6,12 +6,12 @@ function computeInterest()
         if(principal == "" || principal <= 0)
         {
             if(principal == ""){
-                alert("Invalid Amount reveived");
+                alert("enter a positive number");
                 document.getElementById("principal").focus();
                 return;   
             }
             if(principal <= 0){
-                alert("Invalid Amount reveived");
+                alert("enter a positive number");
                 document.getElementById("principal").focus();
                 return;
             }
